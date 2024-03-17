@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" translate="sw"> 
+<html>
+<head>
+    <title>Twin Rivers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" type="img/jpeg" href="img/trr.jpg">
+</head>
+<body >
+</title>
+</body>
+
+
+<!--scripts-->
+<section id="footer">
+    <div class="title-text">
+        <p>scripts</p>
+
+  <!--script 1-->      
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display = "flex"
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display = "none"
+    }
+</script>
+<!--script 2-->
+
+<script>
+    let time = document.getElementById('current-time');
+    setInterval(() =>{
+        let d = new Date();
+        time.innerHTML = d.toLocaleTimeString();
+    },1000)
+</script>
+
+<!--script 3-->
+<script>
+    function closeModel(){
+        modelBox.style.display = "none";
+    }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    loop: true,
+  
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+
+<!--script 4-->
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=&loading=async&callback=initMap">
+</script>
+
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display = "flex"
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector(".sidebar")
+        sidebar.style.display = "none"
+    }
+</script>
+
+
+<!--script 5-->
+<script>
+    function closeModel(){
+        modelBox.style.display = "none";
+    }
+</script>
+
+<!--script 6-->
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=&loading=async&callback=initMap">
+</script>
+</body>
+</html>
